@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% block title %}Projet CV Abdel with Symfony{% endblock %}</title>
+    <title>{% block title %}Abdel - CV project{% endblock %}</title>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
+        {{ encore_entry_link_tags('css/app') }}
     {% endblock %}
 </head>
 
-<body>
+<body class="container-fluid">
 
-{% block body %}
+    {% block navbar %}
+        {{ include('_fragments/navbar.html.twig') }}
+    {% endblock %}
 
-{% endblock %}
+    {% block body %}
 
-{% block javascripts %}
-    <script src="{{ asset('/build/js/app.js') }}"></script>
-    <script src="{{ asset('/build/runtime.js') }}"></script>
-{% endblock %}
+    {% endblock %}
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('js/app') }}
+    {% endblock %}
 
 </body>
 </html>
