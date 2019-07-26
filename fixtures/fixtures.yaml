@@ -1,0 +1,58 @@
+App/Entity/Contact:
+  name: Abdelhamid
+  first_name: Benmeziane
+  birthday: 1984-12-31
+  mobile: 0651990821
+  street: 2 avenue Guillaumet
+  postal_code: 91170
+  country: France
+  city: Viry-chatillon
+  driving_license: B
+  email: ahmidbbc@gmail.com
+  website: abdelhamid-benmeziane.com
+  picture: logo.png
+
+App/Entity/Experiences:
+  experience_1:
+    position: Conseiller Mutualiste
+    company: Mgen
+    started_at: 2012-10-31
+    ended_at: <date(now)>
+    description: Conseiller les assurés, mutualistes et prospects, promouvoir les offres, proposer des plans d'actions commerciaux et participer aux actions de développement régional
+  experience_2:
+    position: Attaché Commercial en assurance
+    company: Assu2000
+    started_at: 2008
+    ended_at: 2011
+    description: Vendre et promouvoir les offres, développer un portefeuille client, maintenir le réseau de partenaires et participer au rayonnement local en adéquation avec la politique définie
+  experience_3:
+    position: SEO Consultant - Webmaster
+    company: Groupe MOSM
+    started_at: 2007
+    ended_at: 2008
+    description: Analyser et améliorer la visibilté du groupe sur internet, proposer des actions de communication et participer aux projets de developpement web et de maintenance.
+  experience_4:
+    position: Conseiller Commercial
+    company: E.Leclerc
+    started_at: 2004
+    ended_at: 2007
+    description: Developper chiffre d'affaire du rayon Blanc/Brun, conseiller la clientèle existante, attirer une nouvelle clientèle et participer aux actions commerciales locales et inventaires périodiques.
+  experience_5:
+    position: Serveur
+    company: L'ANGLE
+    started_at: 2005
+    ended_at: 2007
+    description: Dans une démarche d'accueil conviviale et de bienveillance, developper et fidéliser la clientèle par le relationnel, la rigueur et l promotion de produits et services à forte valeur ajoutée.
+  experience_6:
+    position: Animateur Socio-culturel
+    company: Département de l'Essonne
+    started_at: 2001
+    ended_at: 2003
+    description: Dans un cadre sécuritaire et une démarche de bienveillance, participer à l'épanouissements des enfants par la mise en places d'activités collectives socialisantes, ludiques, constructives et enrichissantes.
+  experience_7:
+    position: Trésorier
+    company: Association Bboy Concept
+    started_at: 2002
+    ended_at: <date(now)>
+    description: Membre actif et impliqué chargé gérer, vérifier et mettre en conformité les comptes de l'association et participer aux activités culturelles.
+
