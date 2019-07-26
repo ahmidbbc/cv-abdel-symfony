@@ -41,6 +41,16 @@ class Experiences
      */
     private $description;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Skills", inversedBy="id_experience")
+     */
+    private $skills;
+
+    /**
+     * @ORM\Column(type="string", length=50)
+     */
+    private $profile;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -102,6 +112,30 @@ class Experiences
     public function setDescription(?string $description): self
     {
         $this->description = $description;
+
+        return $this;
+    }
+
+    public function getSkills(): ?Skills
+    {
+        return $this->skills;
+    }
+
+    public function setSkills(?Skills $skills): self
+    {
+        $this->skills = $skills;
+
+        return $this;
+    }
+
+    public function getProfile(): ?string
+    {
+        return $this->profile;
+    }
+
+    public function setProfile(string $profile): self
+    {
+        $this->profile = $profile;
 
         return $this;
     }

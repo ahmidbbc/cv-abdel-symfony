@@ -1,0 +1,126 @@
+App\Entity\Contact:
+  contact_1:
+    name: Abdelhamid
+    first_name: Benmeziane
+    birthday: <(new DateTime("1984-03-31"))>
+    phone: 0151990821
+    mobile: 0651990821
+    street: 2 avenue Guillaumet
+    postal_code: 91170
+    country: France
+    city: Viry-chatillon
+    driving_license: B
+    email: ahmidbbc@gmail.com
+    website: abdelhamid-benmeziane.com
+    picture: logo.png
+
+App\Entity\Experiences:
+  experience_1:
+    position: Conseiller Mutualiste
+    company: Mgen
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <DateTime()>
+    description: Conseiller les assurés, mutualistes et prospects, promouvoir les offres, proposer des plans d'actions commerciaux et participer aux actions de développement régional
+    profile: ESS
+  experience_2:
+    position: Attaché Commercial en assurance
+    company: Assu2000
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <(new DateTime("1984-03-31"))>
+    description: Vendre et promouvoir les offres, développer un portefeuille client, maintenir le réseau de partenaires et participer au rayonnement local en adéquation avec la politique définie
+    profile: Assurance
+  experience_3:
+    position: SEO Consultant - Webmaster
+    company: Groupe MOSM
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <(new DateTime("1984-03-31"))>
+    description: Analyser et améliorer la visibilté du groupe sur internet, proposer des actions de communication et participer aux projets de developpement web et de maintenance.
+    profile: Web
+  experience_4:
+    position: Conseiller Commercial
+    company: E.Leclerc
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <(new DateTime("1984-03-31"))>
+    description: Developper chiffre d'affaire du rayon Blanc/Brun, conseiller la clientèle existante, attirer une nouvelle clientèle et participer aux actions commerciales locales et inventaires périodiques.
+    profile: Commercial
+  experience_5:
+    position: Serveur
+    company: L'ANGLE
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <(new DateTime("1984-03-31"))>
+    description: Dans une démarche d'accueil conviviale et de bienveillance, developper et fidéliser la clientèle par le relationnel, la rigueur et l promotion de produits et services à forte valeur ajoutée.
+    profile: Commercial
+  experience_6:
+    position: Animateur Socio-culturel
+    company: Département de l'Essonne
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <(new DateTime("1984-03-31"))>
+    description: Dans un cadre sécuritaire et une démarche de bienveillance, participer à l'épanouissements des enfants par la mise en places d'activités collectives socialisantes, ludiques, constructives et enrichissantes.
+    profile: ESS
+  experience_7:
+    position: Trésorier
+    company: Association Bboy Concept
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <DateTime()>
+    description: Membre actif et impliqué chargé gérer, vérifier et mettre en conformité les comptes de l'association et participer aux activités culturelles.
+    profile: ESS
+
+App\Entity\Skills:
+  skill_1:
+    label: <sentence()>
+    description: <sentence()>
+  skill_2:
+    label: <sentence()>
+    description: <sentence()>
+  skill_3:
+    label: <sentence()>
+    description: <sentence()>
+  skill_4:
+    label: <sentence()>
+    description: <sentence()>
+  skill_5:
+    label: <sentence()>
+    description: <sentence()>
+  skill_6:
+    label: <sentence()>
+    description: <sentence()>
+
+App\Entity\Training:
+  training_1:
+    label: <sentence()>
+    degree: <sentence()>
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <DateTime()>
+    description: <sentence()>
+  training_2:
+    label: <sentence()>
+    degree: <sentence()>
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <(new DateTime("1984-03-31"))>
+    description: <sentence()>
+  training_3:
+    label: <sentence()>
+    degree: <sentence()>
+    started_at: <(new DateTime("1984-03-31"))>
+    ended_at: <(new DateTime("1984-03-31"))>
+    description: <sentence()>
+
+App\Entity\Languages:
+  langague_1:
+    label: <sentence()>
+    grade: <sentence()>
+  langague_2:
+    label: <sentence()>
+    grade: <sentence()>
+  langague_3:
+    label: <sentence()>
+    grade: <sentence()>
+  langague_4:
+    label: <sentence()>
+    grade: <sentence()>
+
+App\Entity\Hobbies:
+  hobby_1:
+    title: <sentence()>
+    type: <sentence()>
+    description: <sentence()>
